@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sweet Cono</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #fff8f2;
+            color: #333;
+        }
+        header {
+            background: #ffdac1;
+            padding: 20px;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .hero {
+            width: 100%;
+            text-align: center;
+        }
+        .hero img {
+            width: 100%;
+            max-width: 900px;
+            border-radius: 10px;
+        }
+        nav {
+            background: #ffeedd;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #b85b27;
+            font-weight: bold;
+        }
+        .section {
+            padding: 30px;
+            text-align: center;
+        }
+        .producto {
+            background: #ffffff;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 12px;
+            width: 90%;
+            max-width: 400px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        .producto button {
+            background: #ffb677;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .contacto {
+            width: 90%;
+            max-width: 400px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+        }
+        .btnEnviar {
+            background: #ffa45b;
+            padding: 10px;
+            width: 100%;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<header>Sweet Cono</header>
+
+<div class="hero">
+    <img src="inicio.jpg" alt="Sweet Cono" />
+</div>
+
+<nav>
+    <a href="#productos">Productos</a>
+    <a href="#quienes">Quiénes Somos</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<div id="quienes" class="section">
+    <h2>Quiénes Somos</h2>
+    <p>Sweet Cono es una tienda dedicada a la venta de helados exóticos en cono, con sabores únicos y colores llamativos. Nuestro objetivo es ofrecer una experiencia dulce, fresca y creativa para todos.</p>
+</div>
+
+<div id="productos" class="section">
+    <h2>Productos</h2>
+    <p>Aquí aparecerán tus productos cuando tú me envíes las imágenes y descripciones.</p>
+</div>
+
+<div id="contacto" class="section">
+    <h2>Contacto</h2>
+    <div class="contacto">
+        <form action="mailto:ByronLA@estudiante.americogaribaldi.com" method="post" enctype="text/plain">
+            <input type="text" name="nombre" placeholder="Tu nombre" required />
+            <textarea name="mensaje" placeholder="Escribe tu queja o sugerencia" required></textarea>
+            <button class="btnEnviar" type="submit">Enviar</button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
